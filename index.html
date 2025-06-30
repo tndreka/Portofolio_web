@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taulant Ndreka - Software Developer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <meta name="description" content="Taulant Ndreka - Software Developer specializing in systems programming, web development, and problem-solving." />
+    
+    <!-- Add favicon links -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+  <script type="module" crossorigin src="./assets/main-_-x-FbvU.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-oRFK5GJs.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">TN</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-line">Taulant Ndreka</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Developer & Problem Solver</h2>
+                <p class="hero-description">
+                    Passionate about creating efficient, elegant solutions through code. 
+                    Currently mastering systems programming at 42 Heilbronn while exploring 
+                    the full spectrum of software development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="/cv_taulant_ndreka.pdf" download="Taulant_Ndreka_CV.pdf" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://mail.google.com/mail/?view=cm&to=ndrekalanti@gmail.com" target="_blank" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/taulant-ndreka-122170334" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/tndreka" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="./photo.jpeg" alt="Taulant Ndreka" class="profile-img">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>My Journey</h3>
+                        <p>
+                            I'm a dedicated software developer currently studying at 42 Heilbronn, where I've 
+                            immersed myself in the world of systems programming and algorithmic thinking. My 
+                            passion lies in writing clean, efficient code that solves real-world problems.
+                        </p>
+                        <p>
+                            Through intensive projects ranging from 3D graphics engines to Unix shell 
+                            implementations, I've developed a deep understanding of computer science fundamentals 
+                            and the patience to tackle complex challenges.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <h3>What Drives Me</h3>
+                        <p>
+                            I believe in the power of technology to create positive change. Whether it's 
+                            optimizing algorithms for better performance or building user-friendly interfaces, 
+                            I'm always looking for ways to make software more accessible and efficient.
+                        </p>
+                        <p>
+                            Collaboration and continuous learning are at the core of my development philosophy. 
+                            I thrive in environments where ideas are shared freely and everyone grows together.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="27" id="projects-stat">27</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="15" id="technologies-stat">15</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="539" id="hours-stat">539</div>
+                        <div class="stat-label">Hours of Coding</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20" id="school-projects-stat">20</div>
+                        <div class="stat-label">School Projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My learning journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Student at 42 Heilbronn</h3>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                        <p>Intensive computer science program focusing on peer-to-peer learning, project-based curriculum, and practical skills in C programming, Unix systems, and algorithms.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">C Programming</span>
+                            <span class="tag">Unix Systems</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Peer Learning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Self-Taught Developer</h3>
+                            <span class="timeline-date">2021 - 2023</span>
+                        </div>
+                        <p>Began my programming journey through online courses, tutorials, and personal projects. Developed foundational skills in web development and programming fundamentals.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Self-Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some things I've built</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cub3D</h3>
+                        <p class="project-description">
+                            A 3D game engine inspired by Wolfenstein 3D, implementing raycasting techniques 
+                            in C with the MiniLibX library. Features texture mapping, collision detection, 
+                            and real-time rendering.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">MiniLibX</span>
+                            <span class="tech-tag">Raycasting</span>
+                            <span class="tech-tag">3D Graphics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Minishell</h3>
+                        <p class="project-description">
+                            A custom Unix shell implementation featuring command parsing, process management, 
+                            built-in commands, and environment variable handling. Supports pipes, redirections, 
+                            and signal handling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Unix</span>
+                            <span class="tech-tag">Process Management</span>
+                            <span class="tech-tag">Parsing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-infinity"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fract-ol</h3>
+                        <p class="project-description">
+                            Interactive fractal explorer displaying Julia sets, Mandelbrot sets, and other 
+                            mathematical fractals. Features real-time zoom, color customization, and 
+                            mouse interaction.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Mathematics</span>
+                            <span class="tech-tag">Graphics</span>
+                            <span class="tech-tag">Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-sort"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Push Swap</h3>
+                        <p class="project-description">
+                            An efficient sorting algorithm implementation that sorts data using two stacks 
+                            with a minimal number of operations. Focuses on algorithm optimization and 
+                            complexity analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Minitalk</h3>
+                        <p class="project-description">
+                            Client-server communication system using UNIX signals (SIGUSR1 and SIGUSR2) 
+                            to transmit data bit by bit. Demonstrates low-level inter-process communication.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Unix Signals</span>
+                            <span class="tech-tag">IPC</span>
+                            <span class="tech-tag">Networking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-logo">
+                                <i class="fas fa-book"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Libft</h3>
+                        <p class="project-description">
+                            A comprehensive C library recreating standard library functions and adding 
+                            useful utilities for string manipulation, memory management, and linked list 
+                            operations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Library Development</span>
+                            <span class="tech-tag">Memory Management</span>
+                            <span class="tech-tag">Data Structures</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-cuttlefish"></i>
+                            </div>
+                            <span>C</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span>C++</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span>Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Tools & Systems</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <span>Linux</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <span>Shell</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>Databases</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly hello</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ndrekalanti@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>www.linkedin.com/in/taulant-ndreka-122170334</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/tndreka</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Heilbronn, Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Ready to start a project?</h3>
+                    <p>I'm always open to discussing new opportunities and interesting projects.</p>
+                    <div class="contact-buttons">
+                        <a href="https://mail.google.com/mail/?view=cm&to=ndrekalanti@gmail.com" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Email
+                        </a>
+                        <a href="/cv_taulant_ndreka.pdf" download="Taulant_Ndreka_CV.pdf" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Taulant Ndreka. All rights reserved.</p>
+                    <p>Built with passion and modern web technologies.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://mail.google.com/mail/?view=cm&to=ndrekalanti@gmail.com" target="_blank" class="footer-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/taulant-ndreka-122170334" target="_blank" class="footer-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/tndreka" target="_blank" class="footer-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
